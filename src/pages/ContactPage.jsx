@@ -20,7 +20,7 @@ export default function ContactPage() {
           </FadeUp>
           <FadeUp delay={0.2}>
             <p className="mt-8 text-lg text-ink/75 leading-relaxed">
-              Whether it's a question, a collaboration, or simply a hello — I'd
+              Whether it's a question, a collaboration, or simply a hello, I'd
               love to hear from you. Send a note and I'll respond personally.
             </p>
           </FadeUp>

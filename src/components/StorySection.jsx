@@ -16,13 +16,13 @@ export default function StorySection() {
         </FadeUp>
         <FadeUp delay={0.15}>
           <h2 className="font-serif text-4xl md:text-5xl text-earth leading-tight">
-            Before I ever became a licensed esthetician,
-            <em className="italic font-light"> I was the client.</em>
+            Before I ever guided others,
+            <em className="italic font-light"> I was the one searching.</em>
           </h2>
         </FadeUp>
         <FadeUp delay={0.25}>
           <p className="mt-8 text-lg text-ink/75 leading-relaxed">
-            I dealt with melasma, acne, and hair loss — all while being told to
+            I dealt with melasma, acne, and hair loss, all while being told to
             try another product or prescription. But nothing worked, because
             nothing was addressing the root cause. That's when I stopped
             outsourcing my healing and started studying the body.

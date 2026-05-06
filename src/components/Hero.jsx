@@ -32,7 +32,7 @@ export default function Hero() {
               variants={item}
               className="text-xs tracking-[0.35em] uppercase text-clay mb-6"
             >
-              Air of Earth Aesthetics
+              Ronicha
             </motion.p>
             <motion.h1
               variants={item}
@@ -42,25 +42,25 @@ export default function Hero() {
               <br />
               for <em className="italic font-light">whole-body</em>
               <br />
-              skin healing.
+              healing.
             </motion.h1>
             <motion.p
               variants={item}
               className="mt-8 text-base md:text-lg text-ink/75 leading-relaxed max-w-md"
             >
-              Corrective skincare and ancestral wellness, woven together. I'm
-              Ronicha — a licensed esthetician guiding women back to balance,
-              from the inside out.
+              I'm Ronicha, a Las Vegas-based medical esthetician, brand
+              educator, and wellness strategist. I guide women (including
+              celebrities and athletes) back to balance from the inside out.
             </motion.p>
             <motion.div
               variants={item}
               className="mt-10 flex flex-col sm:flex-row gap-4"
             >
               <Link
-                to="/book"
+                to="/contact"
                 className="inline-flex justify-center items-center px-8 py-4 bg-earth text-cream tracking-[0.2em] text-xs uppercase hover:bg-clay transition-colors duration-300"
               >
-                Book a Session
+                Get in Touch
               </Link>
               <Link
                 to="/about"
@@ -79,7 +79,7 @@ export default function Hero() {
           >
             <img
               src={heroImg}
-              alt="Ronicha — founder, Air of Earth Aesthetics"
+              alt="Ronicha"
               className="h-full w-full object-cover"
               loading="eager"
               fetchPriority="high"

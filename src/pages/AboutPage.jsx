@@ -13,7 +13,7 @@ export default function AboutPage() {
             <div className="aspect-[3/4] overflow-hidden">
               <img
                 src={portrait}
-                alt="Ronicha — Founder of Air of Earth Aesthetics"
+                alt="Ronicha"
                 className="h-full w-full object-cover"
                 loading="eager"
                 fetchPriority="high"
@@ -24,29 +24,31 @@ export default function AboutPage() {
           <div>
             <FadeUp>
               <p className="text-xs tracking-[0.35em] uppercase text-clay mb-6">
-                About — Ronicha
+                About · Ronicha
               </p>
             </FadeUp>
             <FadeUp delay={0.1}>
               <h1 className="font-serif text-5xl md:text-6xl text-earth leading-[1.05]">
-                Owner. Licensed esthetician.
-                <em className="italic font-light"> Sanctuary keeper.</em>
+                Medical esthetician. Brand educator.
+                <em className="italic font-light"> Wellness strategist.</em>
               </h1>
             </FadeUp>
             <FadeUp delay={0.2}>
               <p className="mt-8 text-lg text-ink/75 leading-relaxed">
-                Ronicha is the owner and Licensed Esthetician of Air of Earth
-                Aesthetics, specializing in corrective skin and bodycare for
-                multicultural skin. Our primary goal is results-driven skincare,
-                and we educate every client on a healthier lifestyle to
-                encourage optimal skin health.
+                Ronicha is a medical esthetician and holistic wellness
+                strategist based in Las Vegas. She works with women, including
+                celebrities and athletes, on healing that begins from the
+                inside out, and shares her expertise with the industry through
+                education, speaking, and brand collaborations.
               </p>
             </FadeUp>
             <FadeUp delay={0.3}>
               <p className="mt-6 text-lg text-ink/75 leading-relaxed">
-                If you are suffering from hyperpigmentation, acne, fine lines or
-                wrinkles — we provide advanced facial treatments to help achieve
-                your skincare goals.
+                Her work is grounded in results, lived experience, and an
+                unwavering belief in the body's intelligence. Whether you're
+                navigating a season of overwhelm, a health concern, or a
+                deeper longing for alignment, the work is designed to meet you
+                there.
               </p>
             </FadeUp>
           </div>
@@ -65,57 +67,63 @@ export default function AboutPage() {
           </FadeUp>
           <FadeUp delay={0.15}>
             <h2 className="text-center font-serif text-4xl md:text-5xl text-earth leading-tight">
-              Before I ever became a licensed esthetician,
-              <em className="italic font-light"> I was the client.</em>
+              Before I ever guided others,
+              <em className="italic font-light"> I was the one searching.</em>
             </h2>
           </FadeUp>
 
           <div className="mt-12 space-y-6 text-lg text-ink/80 leading-relaxed">
             <FadeUp delay={0.05}>
               <p>
-                I dealt with melasma, acne, and hair loss… all while being told
-                to try another product or prescription. But nothing worked —
+                I dealt with melasma, acne, and hair loss, all while being told
+                to try another product or prescription. But nothing worked,
                 because nothing was addressing the root cause.
               </p>
             </FadeUp>
             <FadeUp delay={0.1}>
               <p>
                 That's when I stopped outsourcing my healing and started
-                studying the body — gut health, herbalism, skin energetics, and
+                studying the body: gut health, herbalism, energetics, and
                 deeper, ancestral approaches to wellness.
               </p>
             </FadeUp>
             <FadeUp delay={0.15}>
               <p>
-                That journey led me to create Air of Earth Aesthetics, a sacred
-                space rooted in whole-body skin healing. Everything I share —
-                from treatments to protocols — is something I've tested, lived,
-                and trusted in my own body.
+                That journey led me into a sacred practice rooted in whole-body
+                healing. Everything I share, from rituals to protocols, is
+                something I've tested, lived, and trusted in my own body.
+              </p>
+            </FadeUp>
+            <FadeUp delay={0.18}>
+              <p>
+                The path itself was unexpected. I'm a Florida State alumna who
+                spent a year and a half teaching English in South Korea, a
+                chapter that quietly reshaped how I think about beauty, ritual,
+                and rest, and planted the seeds for everything that came next.
               </p>
             </FadeUp>
             <FadeUp delay={0.2}>
               <p className="font-serif italic text-2xl text-earth pt-4">
-                Air of Earth came to me not as a business idea, but as a divine
-                message.
+                This work came to me not as a business idea, but as a divine
+                calling.
               </p>
             </FadeUp>
             <FadeUp delay={0.25}>
               <p>
                 One night, in a dream that felt more like a spiritual
-                initiation, a shamanic presence visited me — I was shown visions
-                of healing, sacred rituals, and a balance between breath (air)
-                and body (earth). It was clear: I wasn't just building a brand.
-                I was birthing a sanctuary.
+                initiation, a shamanic presence visited me. I was shown visions
+                of healing, sacred rituals, and a deep balance between breath
+                and body. It was clear: I wasn't just building a practice. I
+                was being given a path.
               </p>
             </FadeUp>
             <FadeUp delay={0.3}>
               <p>
-                Since that moment, Air of Earth has taken on a life of its own.
-                It continues to reveal itself as a living, breathing entity —
-                one that is intricately connected to nature, spirit, and the
-                women I'm meant to serve. Every client, every transformation,
-                every synchronicity reaffirms that this path was divinely
-                designed.
+                Since that moment, this calling has taken on a life of its own.
+                It continues to reveal itself as a living, breathing practice,
+                intricately connected to nature, spirit, and the women I'm meant
+                to serve. Every conversation, every transformation, every
+                synchronicity reaffirms that this path was divinely designed.
               </p>
             </FadeUp>
           </div>
@@ -129,7 +137,7 @@ export default function AboutPage() {
               <div className="aspect-[3/4] overflow-hidden">
                 <img
                   src={glow}
-                  alt="Ronicha at the treatment room"
+                  alt="Ronicha"
                   className="h-full w-full object-cover"
                   loading="lazy"
                   decoding="async"
@@ -140,50 +148,146 @@ export default function AboutPage() {
           <div className="md:order-1">
             <FadeUp>
               <p className="text-xs tracking-[0.35em] uppercase text-clay mb-6">
-                Symbolism
+                The Practice
               </p>
             </FadeUp>
             <FadeUp delay={0.1}>
               <h2 className="font-serif text-4xl md:text-5xl text-earth leading-tight">
-                Air, earth, and the
-                <em className="italic font-light"> elements of life.</em>
+                Healing as a way of
+                <em className="italic font-light"> living.</em>
               </h2>
             </FadeUp>
             <div className="mt-8 space-y-5 text-ink/75 leading-relaxed">
               <FadeUp delay={0.15}>
                 <p>
-                  At the time of the dream, I did not know what these symbols
-                  meant — but upon waking, I would find that the triangles were
-                  the elements of <em className="italic">air</em> and{" "}
-                  <em className="italic">earth</em>. From science, we know that
-                  elements cannot be broken down: they are the simplest form of
-                  matter. In essence, elements are the foundation of human life.
+                  My work is built on a simple belief: the body knows how to
+                  heal when it's met with the right care, the right rhythm, and
+                  the right reverence. Wellness isn't a regimen. It's a way of
+                  being.
                 </p>
               </FadeUp>
               <FadeUp delay={0.2}>
                 <p>
-                  Air is literally a breath of life — our primary nutrient, and
-                  without it, we simply cannot live. Breath has been known as a
-                  reflection of the spirit. The Chinese refer to it as Qi.
-                  Air also represents lightheartedness and playfulness.
+                  Breath is a primary nutrient. Without it, we simply cannot
+                  live. It's been called a reflection of the spirit; the
+                  Chinese refer to it as Qi. Tending to breath is tending to
+                  life.
                 </p>
               </FadeUp>
               <FadeUp delay={0.25}>
                 <p>
-                  Earth is how we sustain ourselves — on a cellular level with
-                  vegetables and fruit, and on a deeper level through our
-                  ability to connect and give to others.
+                  And the earth sustains us through what we eat, how we move,
+                  and how we give of ourselves to one another. Coming back into
+                  alignment with the natural world is, for me, the foundation
+                  of healing.
                 </p>
               </FadeUp>
               <FadeUp delay={0.3}>
                 <p>
-                  The triangles represent strength and, most importantly,
-                  balance. Any weight placed on them is evenly distributed
-                  between all three sides.
+                  Balance is everything. When the parts of you are evenly held,
+                  the weight of life becomes lighter to carry.
                 </p>
               </FadeUp>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="px-6 md:px-10 py-20 md:py-28">
+        <div className="max-w-3xl mx-auto">
+          <FadeUp>
+            <p className="text-center text-xs tracking-[0.35em] uppercase text-clay mb-6">
+              Selected Work
+            </p>
+          </FadeUp>
+          <FadeUp delay={0.1}>
+            <h2 className="text-center font-serif text-4xl md:text-5xl text-earth leading-tight">
+              Years of building, teaching,
+              <em className="italic font-light"> and showing up.</em>
+            </h2>
+          </FadeUp>
+
+          <div className="mt-16 space-y-0">
+            <FadeUp delay={0.05}>
+              <div className="grid md:grid-cols-[160px_1fr] gap-3 md:gap-10 border-t border-sand/60 py-8">
+                <p className="text-xs tracking-[0.25em] uppercase text-clay md:pt-1">
+                  2024
+                </p>
+                <div>
+                  <p className="font-serif text-2xl text-earth leading-snug">
+                    Esthetician Masterclass · BET
+                  </p>
+                  <p className="mt-2 text-ink/75 leading-relaxed">
+                    Guest educator for the BET masterclass series in
+                    California, sharing advanced clinical practice with the
+                    next generation of skincare professionals.
+                  </p>
+                </div>
+              </div>
+            </FadeUp>
+
+            <FadeUp delay={0.1}>
+              <div className="grid md:grid-cols-[160px_1fr] gap-3 md:gap-10 border-t border-sand/60 py-8">
+                <p className="text-xs tracking-[0.25em] uppercase text-clay md:pt-1">
+                  2023
+                </p>
+                <div>
+                  <p className="font-serif text-2xl text-earth leading-snug">
+                    Brand Ambassador & Educator · Zemits Esthetics
+                  </p>
+                  <p className="mt-2 text-ink/75 leading-relaxed">
+                    Represented Zemits at IECSC Las Vegas with live demos,
+                    practitioner training on device protocols, and ROI
+                    consultations with medspa owners alongside product
+                    leadership.
+                  </p>
+                </div>
+              </div>
+            </FadeUp>
+
+            <FadeUp delay={0.15}>
+              <div className="grid md:grid-cols-[160px_1fr] gap-3 md:gap-10 border-t border-sand/60 py-8">
+                <p className="text-xs tracking-[0.25em] uppercase text-clay md:pt-1">
+                  2020 – Present
+                </p>
+                <div>
+                  <p className="font-serif text-2xl text-earth leading-snug">
+                    Founder · Director of Education & Brand Development
+                  </p>
+                  <p className="mt-2 text-ink/75 leading-relaxed">
+                    Built and scaled a results-driven aesthetics and wellness
+                    practice for multicultural clients, with a focus on
+                    long-term outcomes through corrective care, internal
+                    wellness, and lifestyle integration.
+                  </p>
+                </div>
+              </div>
+            </FadeUp>
+
+            <FadeUp delay={0.2}>
+              <div className="grid md:grid-cols-[160px_1fr] gap-3 md:gap-10 border-t border-b border-sand/60 py-8">
+                <p className="text-xs tracking-[0.25em] uppercase text-clay md:pt-1">
+                  2016 – 2018
+                </p>
+                <div>
+                  <p className="font-serif text-2xl text-earth leading-snug">
+                    International English Instructor · South Korea
+                  </p>
+                  <p className="mt-2 text-ink/75 leading-relaxed">
+                    Two years across Linkus Academy and CHUNGDAHM Learning.
+                    Teaching, mentoring, and laying the foundation of a
+                    lifelong love of education.
+                  </p>
+                </div>
+              </div>
+            </FadeUp>
+          </div>
+
+          <FadeUp delay={0.25}>
+            <p className="mt-12 text-center text-xs tracking-[0.3em] uppercase text-clay">
+              B.S. Marketing · Florida State University, 2016
+            </p>
+          </FadeUp>
         </div>
       </section>
 
@@ -203,22 +307,21 @@ export default function AboutPage() {
           <div className="mt-12 space-y-6 text-lg text-ink/80 leading-relaxed text-center md:text-left">
             <FadeUp delay={0.05}>
               <p>
-                I take a whole body approach when assessing each client's
-                specific needs, locating their issues, and working with them to
-                restore optimal function.
+                I take a whole-body approach when meeting each woman where she
+                is, listening for what's underneath the surface, and working
+                with her to restore optimal function.
               </p>
             </FadeUp>
             <FadeUp delay={0.1}>
               <p>
-                I specialize in corrective skincare for those that suffer with
-                acne, hyperpigmentation, and aging skin.
+                My focus is corrective wellness for women navigating imbalance:
+                physically, emotionally, and energetically.
               </p>
             </FadeUp>
             <FadeUp delay={0.15}>
               <p>
-                I provide personalized anti-aging techniques, organic rituals
-                for the skin and body, tension relief, facial massage, and
-                customized home-care regimens.
+                I offer personalized rituals, organic protocols, gentle
+                bodywork, and customized practices designed for ongoing care.
               </p>
             </FadeUp>
           </div>
@@ -226,10 +329,10 @@ export default function AboutPage() {
           <FadeUp delay={0.25}>
             <div className="mt-14 text-center">
               <Link
-                to="/book"
+                to="/contact"
                 className="inline-flex justify-center items-center px-10 py-4 bg-earth text-cream tracking-[0.25em] text-xs uppercase hover:bg-clay transition-colors duration-300"
               >
-                Begin with a Consultation
+                Begin a Conversation
               </Link>
             </div>
           </FadeUp>

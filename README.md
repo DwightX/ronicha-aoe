@@ -1,6 +1,6 @@
-# Air of Earth Aesthetics — Ronicha
+# Ronicha — Personal Site
 
-Personal site for Ronicha, owner and licensed esthetician at Air of Earth Aesthetics. Companion to the brand site at [airofearth.co](https://www.airofearth.co/).
+Personal site for Ronicha — a guide for women returning to balance, rooted in ancestral wellness and whole-body healing.
 
 ## Stack
 
@@ -26,13 +26,9 @@ src/
 ├── components/
 │   ├── Hero.jsx             Home hero with parallax + staggered text reveal
 │   ├── StorySection.jsx
-│   ├── ApproachSection.jsx
 │   ├── MissionSection.jsx
-│   ├── ServicesGrid.jsx
-│   ├── ServiceCard.jsx
-│   ├── BookingForm.jsx      Placeholder form (see "Wiring booking" below)
-│   ├── FAQ.jsx
 │   ├── CTAStrip.jsx
+│   ├── ContactForm.jsx      Contact form (placeholder onSubmit — see below)
 │   ├── Navbar.jsx
 │   ├── Footer.jsx
 │   ├── TriangleDivider.jsx
@@ -41,9 +37,7 @@ src/
 ├── pages/
 │   ├── HomePage.jsx
 │   ├── AboutPage.jsx
-│   ├── ServicesPage.jsx
-│   └── BookingPage.jsx
-├── data/services.js         Service list — single source of truth
+│   └── ContactPage.jsx
 ├── App.jsx                  Routes + page transitions
 ├── main.jsx
 └── index.css                Tailwind 4 theme tokens (cream/bone/sand/clay/earth/ink)
@@ -73,25 +67,23 @@ The site is a static SPA. Both configs below are committed — pick whichever ho
 
 - Build command: `npm run build`
 - Publish dir: `dist`
-- **Important:** configure a fallback so that all unknown paths serve `/index.html` (otherwise refreshing on `/about`, `/services`, or `/book` will 404). React Router needs this.
+- **Important:** configure a fallback so that all unknown paths serve `/index.html` (otherwise refreshing on `/about` or `/contact` will 404). React Router needs this.
 
-## Wiring booking to a real backend (when ready)
+## Wiring the contact form
 
-The booking form in `src/components/BookingForm.jsx` is a placeholder — submissions are logged to the console and the user sees a thank-you state. Replace the `onSubmit` body when ready. Common options:
+The form in `src/components/ContactForm.jsx` is a placeholder — submissions are logged to the console and the user sees a thank-you state. Replace the `onSubmit` body when ready. Common options:
 
-- **Calendly / Square Appointments / Acuity** — replace the form with an embed (or link out from the buttons in `Hero.jsx`, `CTAStrip.jsx`, and `BookingPage.jsx`).
 - **Formspree / Basin / Web3Forms** — point `<form action="...">` at the endpoint, no JS changes needed.
-- **Custom backend** — `fetch('/api/booking', { method: 'POST', body: JSON.stringify(form) })` inside `onSubmit`.
+- **Custom backend** — `fetch('/api/contact', { method: 'POST', body: JSON.stringify(form) })` inside `onSubmit`.
 
-The `// TODO: wire to Calendly/Square` comment in `BookingForm.jsx` marks the spot.
+The `// TODO: wire to email service` comment in `ContactForm.jsx` marks the spot.
 
 ## Updating content
 
-- **Service list (name, duration, price, description):** `src/data/services.js`
-- **FAQ:** `src/components/FAQ.jsx`
-- **Studio policies:** `src/pages/BookingPage.jsx`
 - **Story / About copy:** `src/pages/AboutPage.jsx`
 - **Hero headline:** `src/components/Hero.jsx`
+- **Mission copy:** `src/components/MissionSection.jsx`
+- **Footer / contact info:** `src/components/Footer.jsx`
 - **Color palette:** `src/index.css` (`@theme` block)
 - **Photos:** drop new files into `src/assets/`, update the `import` lines in components
 
@@ -99,9 +91,6 @@ The `// TODO: wire to Calendly/Square` comment in `BookingForm.jsx` marks the sp
 
 Hero and portrait photos live in `src/assets/` as WebP at quality 80. If you swap in new photos, run them through [Squoosh](https://squoosh.app/) or `cwebp -q 80` before committing — keep each image under 200 KB.
 
-## Brand notes
+## Tone
 
-- Primary brand: [airofearth.co](https://www.airofearth.co/)
-- Instagram: [@airofearth.co](https://www.instagram.com/airofearth.co/)
-- Tone: classy, earthy, ritual-led — never aggressive, never sterile
-- Copy is Ronicha's voice and is finalized — please don't paraphrase without her sign-off
+Classy, earthy, ritual-led — never aggressive, never sterile. Copy is Ronicha's voice.

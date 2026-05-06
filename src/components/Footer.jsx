@@ -21,19 +21,40 @@ function InstagramIcon({ size = 16 }) {
   );
 }
 
+function LinkedInIcon({ size = 16 }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+      <rect x="2" y="9" width="4" height="12" />
+      <circle cx="4" cy="4" r="2" />
+    </svg>
+  );
+}
+
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer className="bg-earth text-cream/90 mt-24">
       <div className="max-w-6xl mx-auto px-6 md:px-10 py-16 md:py-20 grid gap-12 md:grid-cols-3">
         <div>
-          <p className="font-serif text-2xl italic">Air of Earth</p>
-          <p className="text-sm tracking-[0.2em] uppercase mt-1 text-cream/60">
-            Aesthetics — Ronicha
+          <p className="font-serif text-2xl italic">Ronicha</p>
+          <p className="text-xs tracking-[0.25em] uppercase mt-2 text-cream/60">
+            Las Vegas, Nevada
           </p>
           <p className="mt-6 text-cream/70 text-sm leading-relaxed max-w-xs">
-            Your alchemy to overall wellness. A sanctuary rooted in whole-body
-            skin healing.
+            Medical esthetician · brand educator · wellness strategist.
+            Helping women return to balance, and partnering with the industry
+            through education, speaking, and brand work.
           </p>
         </div>
 
@@ -53,16 +74,8 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link
-                to="/services"
-                className="hover:text-cream transition-colors"
-              >
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link to="/book" className="hover:text-cream transition-colors">
-                Book a Session
+              <Link to="/contact" className="hover:text-cream transition-colors">
+                Contact
               </Link>
             </li>
           </ul>
@@ -75,34 +88,41 @@ export default function Footer() {
           <ul className="space-y-3 text-sm">
             <li>
               <a
+                href="https://www.linkedin.com/in/ronicha-palmer/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="inline-flex items-center gap-2 hover:text-cream transition-colors"
+              >
+                <LinkedInIcon size={16} /> LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://www.instagram.com/airofearth.co/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="inline-flex items-center gap-2 hover:text-cream transition-colors"
               >
-                <InstagramIcon size={16} /> @airofearth.co
+                <InstagramIcon size={16} /> Instagram
               </a>
             </li>
             <li>
-              <a
-                href="mailto:hello@airofearth.co"
+              <Link
+                to="/contact"
                 className="inline-flex items-center gap-2 hover:text-cream transition-colors"
               >
-                <Mail size={16} /> hello@airofearth.co
-              </a>
+                <Mail size={16} /> Send a message
+              </Link>
             </li>
           </ul>
-          <p className="mt-6 text-xs text-cream/50 leading-relaxed">
-            By appointment only.
-          </p>
         </div>
       </div>
 
       <div className="border-t border-cream/15">
         <div className="max-w-6xl mx-auto px-6 md:px-10 py-6 flex flex-col md:flex-row gap-2 md:items-center md:justify-between text-xs text-cream/50">
-          <p>© {year} Air of Earth Aesthetics. All rights reserved.</p>
+          <p>© {year} Ronicha. All rights reserved.</p>
           <p className="tracking-[0.2em] uppercase">
-            Whole-body · Whole-skin · Whole-self
+            Whole-body · Whole-self · Whole-life
           </p>
         </div>
       </div>

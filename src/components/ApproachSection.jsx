@@ -4,17 +4,17 @@ const pillars = [
   {
     mark: "▲",
     title: "Whole-Body",
-    body: "Your face is a reflection of your health. We assess gut, lifestyle, and stress alongside topical care so results last.",
+    body: "How you feel is a reflection of your whole health. We look at gut, lifestyle, and stress alongside daily care so the work lasts.",
   },
   {
     mark: "▽",
     title: "Corrective",
-    body: "Specialized in acne, hyperpigmentation, and aging skin — with deep expertise in multicultural skin tones.",
+    body: "Focused on women navigating imbalance: physically, emotionally, and energetically, with deep care for the woman behind the symptoms.",
   },
   {
     mark: "△",
     title: "Personalized",
-    body: "Every protocol is built for you — anti-aging techniques, organic rituals, facial massage, and a homecare regimen designed around your skin.",
+    body: "Every protocol is built for you: rituals, organic practices, gentle bodywork, and a daily rhythm designed around your life.",
   },
 ];
 

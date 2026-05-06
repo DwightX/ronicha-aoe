@@ -10,7 +10,7 @@ export default function MissionSection() {
           <div className="relative aspect-[3/4] overflow-hidden">
             <img
               src={treatmentImg}
-              alt="Ronicha at Air of Earth"
+              alt="Ronicha"
               className="h-full w-full object-cover"
               loading="lazy"
               decoding="async"
@@ -30,21 +30,21 @@ export default function MissionSection() {
           </FadeUp>
           <FadeUp delay={0.2}>
             <p className="mt-8 text-lg text-ink/75 leading-relaxed">
-              A balanced skincare regimen using essential plant elements
-              combined with clinical ingredients will transform and nurture the
-              skin. But we cannot address surface-level issues without looking
-              internally — our faces are a direct reflection of our health.
+              Plant medicine and intentional rituals can transform and nurture
+              the body. But you can't address surface-level issues without
+              looking internally. Your outer condition is a direct reflection
+              of what's happening within.
             </p>
           </FadeUp>
           <FadeUp delay={0.3}>
             <p className="mt-6 text-lg text-ink/75 leading-relaxed">
-              Integrating the two allows for optimal results. Not only will your
-              skin transform — your overall wellness will too.
+              Integrating the two allows for true alignment. Your body will
+              transform, and your overall wellness will too.
             </p>
           </FadeUp>
           <FadeUp delay={0.4}>
             <p className="mt-8 font-serif italic text-2xl text-earth">
-              Air of Earth Aesthetics is your alchemy to overall wellness.
+              True wellness is whole-body, woven together.
             </p>
           </FadeUp>
           <FadeUp delay={0.5}>

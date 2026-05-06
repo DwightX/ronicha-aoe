@@ -5,8 +5,7 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-// import ServicesPage from "./pages/ServicesPage";
-// import BookingPage from "./pages/BookingPage";
+import ContactPage from "./pages/ContactPage";
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -22,8 +21,7 @@ function AnimatedRoutes() {
         <Routes location={location}>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          {/* <Route path="/services" element={<ServicesPage />} /> */}
-          {/* <Route path="/book" element={<BookingPage />} /> */}
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </motion.div>
     </AnimatePresence>

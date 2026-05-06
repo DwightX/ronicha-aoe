@@ -6,8 +6,7 @@ import { Menu, X } from "lucide-react";
 const links = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
-  // { to: "/services", label: "Services" },
-  // { to: "/book", label: "Book" },
+  { to: "/contact", label: "Contact" },
 ];
 
 export default function Navbar() {
@@ -43,9 +42,7 @@ export default function Navbar() {
             to="/"
             className="font-serif text-xl md:text-2xl text-earth tracking-wide"
           >
-            <span className="italic">Air of Earth</span>
-            <span className="text-clay"> · </span>
-            <span className="text-sm tracking-[0.2em] uppercase">Ronicha</span>
+            <span className="italic">Ronicha</span>
           </Link>
 
           <ul className="hidden md:flex items-center gap-10 text-sm tracking-[0.15em] uppercase text-ink/80">
@@ -64,14 +61,6 @@ export default function Navbar() {
                 </NavLink>
               </li>
             ))}
-            <li>
-              {/* <Link
-                to="/book"
-                className="ml-4 inline-flex items-center px-5 py-2.5 bg-earth text-cream tracking-[0.2em] text-xs uppercase hover:bg-clay transition-colors duration-300"
-              >
-                Book Now
-              </Link> */}
-            </li>
           </ul>
 
           <button
@@ -122,11 +111,11 @@ export default function Navbar() {
                 className="pt-8"
               >
                 <Link
-                  to="/book"
+                  to="/contact"
                   onClick={closeMenu}
                   className="inline-flex w-full justify-center items-center px-6 py-4 bg-earth text-cream tracking-[0.2em] text-xs uppercase"
                 >
-                  Book a Session
+                  Get in Touch
                 </Link>
               </motion.li>
             </ul>

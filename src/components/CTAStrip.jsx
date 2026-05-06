@@ -11,21 +11,21 @@ export default function CTAStrip() {
         </FadeUp>
         <FadeUp delay={0.1}>
           <h2 className="font-serif text-4xl md:text-6xl leading-tight">
-            Begin your <em className="italic font-light">alchemy.</em>
+            Begin a <em className="italic font-light">conversation.</em>
           </h2>
         </FadeUp>
         <FadeUp delay={0.2}>
           <p className="mt-6 text-cream/80 leading-relaxed max-w-xl mx-auto">
-            Every transformation begins with a conversation. Reserve your space
-            and step into a sanctuary built for whole-body healing.
+            Every meaningful path begins with a conversation. Reach out, I'd
+            love to hear from you.
           </p>
         </FadeUp>
         <FadeUp delay={0.3}>
           <Link
-            to="/book"
+            to="/contact"
             className="inline-flex justify-center items-center mt-10 px-10 py-4 bg-cream text-earth tracking-[0.25em] text-xs uppercase hover:bg-sand transition-colors duration-300"
           >
-            Book a Session
+            Get in Touch
           </Link>
         </FadeUp>
       </div>
